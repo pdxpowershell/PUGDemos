@@ -1,0 +1,11 @@
+Job Name: FailJob
+
+Job State: Failed
+
+Command: 
+
+New-Item -Path 'Z:\' -Name 'test' -ItemType Directory -ErrorAction Stop
+
+Error:
+
+Cannot find drive. A drive with the name 'Z' does not exist.
