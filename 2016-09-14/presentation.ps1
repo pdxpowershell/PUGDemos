@@ -96,7 +96,7 @@ $jobGetProcess | Select-Object PSBeginTime,PSEndTime,@{Name='ExecutionTime';Expr
 #Get the properties and methods of the childjob
 $jobGetProcess.ChildJobs[0] | Get-Member
 
-#Look at the job input another way, through the eyes of a child (job)
+#Look at the job output another way, through the eyes of a child (job)
 $jobGetProcess.ChildJobs[0].Output
 
 #Curious that the parent job does not actually contain any output (the child job is where it is all at)
@@ -119,11 +119,10 @@ $failJob.ChildJobs[0].JobStateInfo.Reason
 #Just to show you there is no error on the parent object (or child for that matter)
 $failJob.Error
 $failJob.ChildJobs[0].Error
+#Hmph... weird, but we'll see when this comes in handy, too
 
 #Let's get the taste of failure out of our mouths for now...
 $failJob = $null
-
-#Hmph... weird, but we'll see when this comes in handy, too
 
 #Time to fail again, but secretly
 $failJob = Start-Job -Name FailJob -ScriptBlock {New-Item -Path 'Z:\' -Name 'test' -ItemType Directory}
