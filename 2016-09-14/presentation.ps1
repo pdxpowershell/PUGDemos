@@ -137,5 +137,5 @@ $failJob.Error
 #But the child job object will
 $failJob.ChildJobs[0].Error
 
-#If you want ust the string, it is in the exception property
+#If you want use the string, it is in the exception property
 $failJob.ChildJobs[0].Error.Exception
