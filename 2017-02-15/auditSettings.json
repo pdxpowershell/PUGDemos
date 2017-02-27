@@ -1,0 +1,36 @@
+[
+    {
+        "servername": "bhurt-demo-sql1",
+        "users": [
+            "bhurtsqlpsdemo\\joedba",
+            "BHURT-DEMO-SQL1\\bhurt",
+            "NT AUTHORITY\\SYSTEM",
+            "NT Service\\MSSQLSERVER",
+            "NT Service\\SQLIaaSExtension",
+            "NT SERVICE\\SQLSERVERAGENT",
+            "NT SERVICE\\SQLWriter",
+            "NT SERVICE\\Winmgmt",
+            "sa",
+            "bhurt",
+            "##MS_PolicyEventProcessingLogin##",
+            "##MS_PolicyTsqlExecutionLogin##"
+        ]
+    },
+    {
+        "servername": "bhurt-demo-sql2",
+        "users": [
+            "bhurtsqlpsdemo\\joedba",
+            "BHURT-DEMO-SQL2\\bhurt",
+            "NT AUTHORITY\\SYSTEM",
+            "NT Service\\MSSQLSERVER",
+            "NT Service\\SQLIaaSExtension",
+            "NT SERVICE\\SQLSERVERAGENT",
+            "NT SERVICE\\SQLWriter",
+            "NT SERVICE\\Winmgmt",
+            "sa",
+            "bhurt",
+            "##MS_PolicyEventProcessingLogin##",
+            "##MS_PolicyTsqlExecutionLogin##"
+        ]
+    }
+]
