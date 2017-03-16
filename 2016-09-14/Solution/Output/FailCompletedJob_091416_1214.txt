@@ -1,0 +1,16 @@
+Job Name: FailCompletedJob
+
+Job State: Completed
+
+Command:
+
+New-Item -Path 'Z:\' -Name 'test' -ItemType Directory
+
+Error:
+
+Cannot find drive. A drive with the name 'Z' does not exist.
+    + CategoryInfo          : ObjectNotFound: (Z:String) [New-Item], DriveNotFoundException
+    + FullyQualifiedErrorId : DriveNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+    + PSComputerName        : localhost
+ 
+
