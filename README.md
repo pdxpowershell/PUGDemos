@@ -12,3 +12,4 @@ Meetup Page - [https://www.meetup.com/PDX-PowerShell-User-Group/](https://www.me
 | [13 Jul 2016](https://www.meetup.com/PDX-PowerShell-User-Group/events/231232828/) | Aaron Jensen - Carbon and Contiuous Delivery |
 | [15 Jun 2016](https://www.meetup.com/PDX-PowerShell-User-Group/events/231232721/) | Bill Hurt - Automating websites with Powershell |
 | [17 May 2016](https://www.meetup.com/PDX-PowerShell-User-Group/events/230875269/) | June Blender - Thinking in Events |
+| [22 Jan 2018](https://www.meetup.com/PDX-PowerShell-User-Group/events/246102312/) | Steven Murawski - Slow is Smooth, Smooth Is Fast |
